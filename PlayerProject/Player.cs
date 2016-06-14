@@ -5,7 +5,18 @@ using System.Text;
 
 namespace PlayerProject
 {
-    public class Player
+    public class Player : GameObject, IShootable, ITouchable
     {
+        public int Score
+        {
+            get
+            {
+                throw new System.NotImplementedException();
+            }
+
+            set
+            {
+            }
+        }
     }
 }

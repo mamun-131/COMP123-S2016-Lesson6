@@ -5,7 +5,16 @@ using System.Text;
 
 namespace PlayerProject
 {
-    public class Enemy
+    public abstract class Enemy : GameObject
     {
+        public void Seek()
+        {
+            throw new System.NotImplementedException();
+        }
+
+        public void Flee()
+        {
+            throw new System.NotImplementedException();
+        }
     }
 }
